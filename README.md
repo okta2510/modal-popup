@@ -1,1 +1,1 @@
-# catalog-modal
+# modal-popup
