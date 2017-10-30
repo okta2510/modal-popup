@@ -37,6 +37,9 @@
       @media(max-width: 480px){
         width: 90%;
       }
+      @media(min-width: 1024px){
+        width: 768px;
+      }
       .section-row {
         margin: 30px 0;
           &>li {
