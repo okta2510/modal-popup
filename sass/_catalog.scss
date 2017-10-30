@@ -1,0 +1,46 @@
+
+.catalog-detail {
+  &>p {
+    margin: initial;
+  }
+  .title {
+    margin-top: 0;
+  }
+  .action {
+    small {
+      font-size: 12px;
+      line-height: 20px;
+      font-weight: bold;
+      color:$dark-grey;
+    }
+    .price {
+      font-size: 21px;
+      line-height: 29px;
+      margin: 0;
+      font-weight: 600;
+    }
+  }
+
+  .desc {
+    color:$grey;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'opensans';
+  }
+  .rate {
+    font-size: 0;
+    span {
+      display: inline-block;
+      font-size: 12px;
+      line-height: 19px;
+      font-weight: 600;
+
+      &+span {
+        margin-left: 16px;
+      }
+      .fa {
+        margin-right: 5px;
+      }
+    }
+  }
+}

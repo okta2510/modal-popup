@@ -1,0 +1,81 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Test</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1,user-scalable=yes">
+
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="apple-touch-icon" href="icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/font-awesome.css">
+    </head>
+    <body>
+
+        <div class="cont">
+          <div class="row" style="margin-top:45vh;">
+            <div class="col-m8 col-offset-m2 text-center">
+              <button class="btn btn-blue btn-lg bg-blue upperme font-bold c-pointer" onclick="showModal()">popup button</button>
+            </div>
+          </div>
+        </div>
+
+
+        <div id="modal"  class="modal-widget">
+          <div class="modal-content w-image">
+            <div class="img-cover" style="background-image:url(img/villa.jpeg)">
+
+            </div>
+            <div class="modal-catalog">
+              <div class="row">
+                <div class="col-m12">
+
+                  <div class="catalog-detail">
+                    <h2 class="mb-5 title">Four Seasons Resort Bali</h2>
+                    <p class="sub-title mb-20">Sayan Ubud Gianyar, Ubud, Indonesia, 80361</p>
+                    <p class="rate mb-20">
+                      <span class="color-orange"><i class="fa fa-star"></i> 5 STARS</span>
+                      <span class="color-blue">9/10 Very Good</span>
+                    </p>
+                    <p class="desc font-light mb-20">The highest quality service accompanying its extensive facilities will make you get the ultimate holiday experience. Get precious and unforgettable moment during your stay at Four Seasons Resort Bali at Sayan.</p>
+
+                    <div class="policy mb-30 toggle-component">
+                      <div class="head toggle-slide" target="#toggle1">
+                        <span>Hotel Policy</span>
+                        <i class="fa fa-angle-down"></i>
+                      </div>
+                      <div id="toggle1" class="content toggle-slide">
+                          <div class="text-muted text-small">
+                            You must present a photo ID when checking in. Your credit card is charged at the time you book. Bed type and smoking preferences are not guaranteed. Your reservation is prepaid and is guaranteed for late arrival.
+                          </div>
+                      </div>
+                    </div>
+
+
+                    <div class="action row">
+                      <div class="col-m6 col-box">
+                        <small>Starting from</small>
+                        <p class="price color-orange">Rp 11.623.675</p>
+                      </div>
+                      <div class="col-m6 col-box">
+                        <button type="button" name="button" class="btn btn-lg btn-block bg-orange upperme">Book Now</button>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="modal-backdrop" class="modal-backdrop" onclick="hideModal()"></div>
+
+      <script src="js/vendor/jquery-3.2.1.min.js"></script>
+      <script src="js/main.js"></script>
+    </body>
+</html>
